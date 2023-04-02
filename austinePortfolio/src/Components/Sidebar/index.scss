@@ -1,0 +1,70 @@
+nav{
+    justify-content: center;
+    align-items:center ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    height: 210px;
+    top: 50%;
+    width: inherit;
+    margin-top: -60px;
+  
+    a{
+        text-decoration: none;
+        font-size: 24px;
+        color: #4d4d4d; 
+        line-height: 51px;
+        height: 51px;
+        display: block;
+        position: relative;
+
+        i{
+            transition: all 0.3s ease-out;
+        }
+        &:hover{
+            color: #ffd700;
+            svg{
+                opacity: 0;
+            }
+            &::after{
+                opacity: 1;
+            }
+        }
+        &::after{
+            content:'';
+            transform: translateX(-40%);
+            font-size: 9px;
+            letter-spacing: 2px;
+            position: absolute;
+            bottom: 0;
+            left: auto;
+            display: block;
+            width: inherit;
+            text-align: center;
+            opacity: 0;
+            transition: all 0.3s ease-out;
+        }
+        &:first-child{
+            &::after{
+                content: 'HOME';
+            }
+        }
+        &:nth-child(2){
+            &::after{
+                content: 'ABOUT';
+            }
+        }
+        &:nth-child(3){
+            &::after{
+                content: 'CONTACT';
+            }
+        }
+        
+    }
+    a.active{
+        svg{
+            color: #ffd700;
+        }
+    }
+}
