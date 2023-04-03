@@ -1,6 +1,10 @@
-nav{
+$primary-color: #ffd700 !default;
+
+div {
+  position: relative;
+  nav {
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -9,62 +13,80 @@ nav{
     top: 50%;
     width: inherit;
     margin-top: -60px;
-  
-    a{
-        text-decoration: none;
-        font-size: 24px;
-        color: #4d4d4d; 
-        line-height: 51px;
-        height: 51px;
-        display: block;
-        position: relative;
 
-        i{
-            transition: all 0.3s ease-out;
+    a {
+      text-decoration: none;
+      font-size: 24px;
+      color: #4d4d4d;
+      line-height: 51px;
+      height: 51px;
+      display: block;
+      position: relative;
+
+      i {
+        transition: all 0.3s ease-out;
+      }
+      &:hover {
+        color: $primary-color;
+        svg {
+          opacity: 0;
         }
-        &:hover{
-            color: #ffd700;
-            svg{
-                opacity: 0;
-            }
-            &::after{
-                opacity: 1;
-            }
+        &::after {
+          opacity: 1;
         }
-        &::after{
-            content:'';
-            transform: translateX(-40%);
-            font-size: 9px;
-            letter-spacing: 2px;
-            position: absolute;
-            bottom: 0;
-            left: auto;
-            display: block;
-            width: inherit;
-            text-align: center;
-            opacity: 0;
-            transition: all 0.3s ease-out;
+      }
+      &::after {
+        content: '';
+        transform: translateX(-40%);
+        text-align: center;
+        font-size: 9px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 0;
+        left: auto;
+        display: block;
+        width: inherit;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+      }
+      &:first-child {
+        &::after {
+          content: 'HOME';
         }
-        &:first-child{
-            &::after{
-                content: 'HOME';
-            }
+      }
+      &:nth-child(2) {
+        &::after {
+          content: 'ABOUT';
         }
-        &:nth-child(2){
-            &::after{
-                content: 'ABOUT';
-            }
+      }
+      &:nth-child(3) {
+        &::after {
+          content: 'CONTACT';
         }
-        &:nth-child(3){
-            &::after{
-                content: 'CONTACT';
-            }
-        }
-        
+      }
     }
-    a.active{
-        svg{
-            color: #ffd700;
-        }
+    a.active {
+      svg {
+        color: $primary-color;
+      }
     }
+  }
+  ul {
+    width: inherit;
+    position: absolute;
+    text-align: center;
+    li {
+      a {
+        font-size: 15px;
+        text-decoration: none;
+        position: relative;
+        display: block;
+        padding: 7px 0;
+      }
+      &:hover svg{
+        color:$primary-color
+      }
+    }
+  }
 }
