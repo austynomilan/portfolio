@@ -4,17 +4,17 @@ import LogoA from '../../assets/images/A.png'
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import LogoSub from '../../assets/images/logo_sub.png'
+import LogoSub from '../../assets/images/ff.png'
 
 const Sidebar = () => {
   return (
-    <div className="w-24 h-screen bg-zinc-900 justify-center py-6">
+    <div className="mainContainer w-24 h-screen bg-zinc-900 justify-center py-6">
       <Link to="/">
         <img src={LogoA} alt="logo" className="w-20 h-auto m-auto" />
-        <img src={LogoSub} alt="ausine" className="w-18 h-auto py-2" />
+        <img src={LogoSub} alt="ausine" className="w-18 h-auto px-2" />
       </Link>
       <nav>
-        <NavLink className="active" exact="true" to="/">
+        <NavLink activeclassname="active" exact="true" to="/">
           <FontAwesomeIcon icon={faHome} />
         </NavLink>
         <NavLink

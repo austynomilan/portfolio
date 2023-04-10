@@ -1,0 +1,33 @@
+.logo-container {
+  animation: fadeIn 2s 4.2s both;
+  img {
+    
+    position: absolute;
+    top: -75px;
+    right: 10px;
+    height: 658px;
+    width: auto;
+    z-index: 1;
+  }
+  .box {
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+  }
+  .bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+  }
+}
+@keyframes bounce-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
