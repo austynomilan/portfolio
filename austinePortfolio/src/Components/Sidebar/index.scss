@@ -1,7 +1,16 @@
 $primary-color: #ffd700 !default;
 
 .mainContainer {
+  transform: translateY(0%);
   position: relative;
+  height: 100vh;
+
+  .Hamburger,
+  .close-icon {
+    color: $primary-color;
+    font-size: 23px;
+    display: none;
+  }
   nav {
     justify-content: center;
     align-items: center;
@@ -62,6 +71,11 @@ $primary-color: #ffd700 !default;
       }
       &:nth-child(3) {
         &::after {
+          content: 'MY_WORK';
+        }
+      }
+      &:nth-child(4) {
+        &::after {
           content: 'CONTACT';
         }
       }
@@ -70,6 +84,9 @@ $primary-color: #ffd700 !default;
       svg {
         color: $primary-color;
       }
+    }
+    &.mobile-show {
+      display: block;
     }
   }
   ul {
@@ -84,9 +101,65 @@ $primary-color: #ffd700 !default;
         display: block;
         padding: 7px 0;
       }
-      &:hover svg{
-        color:$primary-color
+      &:hover svg {
+        color: $primary-color;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .mainContainer {
+    z-index: 10000;
+    position: relative;
+    top: 0px;
+    height: auto;
+    min-height: auto;
+    ul,
+    nav {
+      display: none;
+    }
+
+    .mobile-show {
+      width: 645%;
+    }
+
+    nav {
+      position: absolute;
+      width: 100%;
+      background: #181818;
+      top: 0;
+      left: 0;
+      z-index: 10000 !important;
+      margin: 0;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &::after {
+          opacity: 1;
+          position: initial;
+          width: auto;
+          margin-left: 25px;
+        }
+
+        svg {
+          opacity: 1 !important;
+        }
+      }
+    }
+    .Hamburger,
+    .close-icon {
+      display: block;
+      position: absolute;
+      top: 25px;
+      right: -320px;
+    }
+    .close-icon {
+      position: absolute;
+      right: 10px;
     }
   }
 }

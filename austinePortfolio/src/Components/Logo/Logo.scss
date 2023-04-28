@@ -1,9 +1,8 @@
 .logo-container {
   animation: fadeIn 2s 4.2s both;
   img {
-    
     position: absolute;
-    top: -75px;
+    top: 245px;
     right: 10px;
     height: 658px;
     width: auto;
@@ -29,5 +28,23 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .logo-container {
+    position: relative;
+    transform: none;
+    height: auto;
+    z-index: -9000 !important;
+
+    .bounce-1 {
+      background: transparent;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      top: 150px;
+      left: -5px;
+    }
   }
 }

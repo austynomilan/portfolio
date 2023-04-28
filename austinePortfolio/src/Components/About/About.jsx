@@ -41,7 +41,7 @@ const About = () => {
          <div className="container about-page">
       <div className="text-zone">
         <h1>
-          <Animated letterClass={letterClass} strArray={titleArray} idx={40} />
+          <Animated letterClass={letterClass} strArray={titleArray} idx={15} />
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fuga,

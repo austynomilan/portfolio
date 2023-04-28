@@ -1,7 +1,8 @@
 $primary-color: #ffd700 !default;
 
+
 .home-page {
-  position: relative;
+  position: absolute;
   z-index: 900;
   .text-zone {
     left: 10%;
@@ -144,5 +145,36 @@ $primary-color: #ffd700 !default;
   }
   100% {
     background-position: 0 0;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .tags,
+  .home-page h1::before,
+  .home-page h1::after{
+    display: none;
+  }
+
+  .home-page{
+    left: 0px;
+    .text-zone{
+      position: relative;
+      left: -5px;
+      top: 105px;
+      width: 100%;
+      transform: none;
+      padding: 15px;
+      box-sizing: border-box;
+      margin: auto;
+    }
+
+    .glow-on-hover{
+      float: none;
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 140px;
+      height: 30px;
+      font-weight: 700;
+    }
   }
 }
