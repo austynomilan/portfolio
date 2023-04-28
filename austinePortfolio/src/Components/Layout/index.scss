@@ -4,6 +4,8 @@ $primary-color: #ffd700 !default;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
+  width: auto;
   .page {
     width: 100%;
     height: 100%;
