@@ -121,8 +121,7 @@ $primary-color: #ffd700 !default;
     }
 
     .mobile-show {
-      overflow-x: hidden !important;
-      width: 635%;
+      width: 645%;
     }
 
     nav {
@@ -131,6 +130,7 @@ $primary-color: #ffd700 !default;
       background: #181818;
       top: 0;
       left: 0;
+      overflow-x: hidden;
       z-index: 10000 !important;
       margin: 0;
 
@@ -160,7 +160,7 @@ $primary-color: #ffd700 !default;
     }
     .close-icon {
       position: absolute;
-      right: 10px;
+      right: 40px;
     }
   }
 }
