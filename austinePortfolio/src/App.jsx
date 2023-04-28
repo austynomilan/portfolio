@@ -8,7 +8,7 @@ import Portfolio from './Components/Portfolio/Portfolio'
 
 function App() {
   return (
-    <>
+    <div className='wrapper'>
       <Routes>
         <Route path='/' element={ <Layout/> }>
         <Route index element={ <Home /> }/>
@@ -17,7 +17,7 @@ function App() {
         <Route path='/contact'  element={ <Contact /> } />
         </Route>
       </Routes>
-    </>
+    </div>
   )
 }
 
