@@ -121,6 +121,7 @@ $primary-color: #ffd700 !default;
     }
 
     .mobile-show {
+      overflow-x: hidden !important;
       width: 635%;
     }
 
