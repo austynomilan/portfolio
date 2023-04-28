@@ -3,7 +3,7 @@ import Animated from '../AnimatedLetters/Animated'
 import AtomLoader from 'react-loaders-kit/lib/atom/AtomLoader'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
-import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
+
 
 const About = () => {
   const form = useRef()

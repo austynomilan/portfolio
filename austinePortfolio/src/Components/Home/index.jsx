@@ -1,10 +1,12 @@
 import './index.scss'
 import LogoA from '../../assets/images/A.png'
-import AnimatedLetters from '../AnimatedLetters/animated'
+
 import LogoLe from '../Logo/Logo'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import AtomLoader from 'react-loaders-kit/lib/atom/AtomLoader';
+import AnimatedLetters from '../AnimatedLetters/Animated'
+
 
 
 const Home = () => {
