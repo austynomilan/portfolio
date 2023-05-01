@@ -87,7 +87,7 @@ $primary-color: #ffd700 !default;
     }
     &.mobile-show {
       display: block;
-      width: 100%;
+      width: 0%;
     }
   }
   ul {
@@ -117,15 +117,13 @@ $primary-color: #ffd700 !default;
     height: auto;
     min-height: auto;
 
-   
-
     ul,
     nav {
       display: none;
     }
 
     .mobile-show {
-      width: auto;
+      width: 16px;
       position: absolute;
   
     }
@@ -162,11 +160,11 @@ $primary-color: #ffd700 !default;
       display: block;
       position: absolute;
       top: 25px;
-      right: -280px;
+      right: -220px;
     }
     .close-icon {
       position: absolute;
-      right: 60px;
+      right: 100px;
     }
   }
 }

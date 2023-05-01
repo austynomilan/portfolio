@@ -74,7 +74,7 @@
 }
 .mainContainer nav.mobile-show {
   display: block;
-  width: 100%;
+  width: 0%;
 }
 .mainContainer ul {
   width: inherit;
@@ -105,7 +105,7 @@
     display: none;
   }
   .mainContainer .mobile-show {
-    width: auto;
+    width: 16px;
     position: absolute;
   }
   .mainContainer nav {
@@ -137,10 +137,10 @@
     display: block;
     position: absolute;
     top: 25px;
-    right: -280px;
+    right: -220px;
   }
   .mainContainer .close-icon {
     position: absolute;
-    right: 60px;
+    right: 100px;
   }
 }/*# sourceMappingURL=index.css.map */
