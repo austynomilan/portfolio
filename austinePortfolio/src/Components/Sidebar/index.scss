@@ -120,18 +120,16 @@ $primary-color: #ffd700 !default;
     nav {
       display: none;
     }
-
     
-
     nav {
       position: absolute;
-      width: 100%;
+      width: 100;
       background: #181818;
       top: 0;
       left: 0;
       z-index: 10000 !important;
       margin: 0;
-      transform: translateX(50%);
+      transform: translateX(428%);
       
       .mobile-show {
         width: 100% !important;
