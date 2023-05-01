@@ -103,19 +103,19 @@
   .mainContainer nav {
     display: none;
   }
-  .mainContainer .mobile-show {
-    width: 100% !important;
-    position: absolute;
-  }
   .mainContainer nav {
     position: absolute;
     width: 100%;
     background: #181818;
     top: 0;
     left: 0;
-    overflow-x: hidden;
     z-index: 10000 !important;
     margin: 0;
+    transform: translateX(50%);
+  }
+  .mainContainer nav .mobile-show {
+    width: 100% !important;
+    position: absolute;
   }
   .mainContainer nav a {
     display: flex;

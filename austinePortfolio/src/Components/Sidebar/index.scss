@@ -121,10 +121,7 @@ $primary-color: #ffd700 !default;
       display: none;
     }
 
-    .mobile-show {
-      width: 100% !important;
-      position: absolute;
-    }
+    
 
     nav {
       position: absolute;
@@ -132,9 +129,14 @@ $primary-color: #ffd700 !default;
       background: #181818;
       top: 0;
       left: 0;
-      overflow-x: hidden;
       z-index: 10000 !important;
       margin: 0;
+      transform: translateX(50%);
+      
+      .mobile-show {
+        width: 100% !important;
+        position: absolute;
+      }
 
       a {
         display: flex;
