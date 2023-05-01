@@ -160,13 +160,14 @@ $primary-color: #ffd700;
 
 @media screen and (max-width: 1200px) {
   .contact-page {
-    top: -153px;
+    top: 0px;
     left: 0;
     box-sizing: border-box;
     .info-map {
       display: none;
     }
     .text-zone {
+      top: 305px;
       width: 99%;
       left: -4px;
       margin: 0;
@@ -176,7 +177,7 @@ $primary-color: #ffd700;
       position: absolute;
       margin: auto;
       padding: 15px;
-      top: 810px;
+      top: 690px;
       left: 0;
       width: 100%;
       height: 300px;
