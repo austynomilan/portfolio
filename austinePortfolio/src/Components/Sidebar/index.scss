@@ -113,7 +113,7 @@ $primary-color: #ffd700 !default;
     z-index: 10000;
     position: relative;
     top: 0px;
-    height: auto;
+    height: 138px;
     min-height: auto;
 
     ul,
@@ -122,20 +122,15 @@ $primary-color: #ffd700 !default;
     }
     
     nav {
-      position: absolute;
-      width: 100;
+      position: relative;
+      width: 400px;
+      height: 200px;
       background: #181818;
-      top: 0;
+      top: -135px;
       left: 0;
       z-index: 10000 !important;
       margin: 0;
-      transform: translateX(428%);
-      
-      .mobile-show {
-        width: 100% !important;
-        position: absolute;
-      }
-
+   
       a {
         display: flex;
         justify-content: center;
