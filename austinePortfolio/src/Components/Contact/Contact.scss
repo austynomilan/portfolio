@@ -167,10 +167,11 @@ $primary-color: #ffd700;
       display: none;
     }
     .text-zone {
-      top: 545px;
+      background-color: aqua;
+      top: 305px;
       width: 99%;
       left: -4px;
-      margin-bottom: 50px;
+      margin: 0;
       padding: 10px;
     }
     .map-wrap {
