@@ -110,9 +110,9 @@ $primary-color: #ffd700 !default;
   .images-container{
     box-sizing: border-box;
     width: 100%;
-    top: 135px;
     gap: 5px;
     .image-box{
+      top: 145px;
       height: 200px;
       flex: 1 1 50%;
       max-width: calc(50% - 10px);
