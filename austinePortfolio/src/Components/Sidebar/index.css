@@ -106,17 +106,13 @@
   .mainContainer .mobile-show {
     width: 100vw !important;
     position: absolute;
-    left: 300px;
-    top: 0;
-    bottom: 0;
-    z-index: 100000 !important;
   }
   .mainContainer nav {
     position: absolute;
     width: 100%;
     background: #181818;
     top: 0;
-    left: 0;
+    left: 360px;
     overflow-x: hidden;
     z-index: 10000 !important;
     margin: 0;
