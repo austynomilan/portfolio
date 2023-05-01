@@ -122,7 +122,7 @@ $primary-color: #ffd700 !default;
     }
 
     .mobile-show {
-      width: 100vw !important;
+      width: 100% !important;
       position: absolute;
     }
 
@@ -131,7 +131,7 @@ $primary-color: #ffd700 !default;
       width: 100%;
       background: #181818;
       top: 0;
-      left: 360px;
+      left: 0;
       overflow-x: hidden;
       z-index: 10000 !important;
       margin: 0;
