@@ -1,0 +1,146 @@
+.mainContainer {
+  transform: translateY(0%);
+  position: relative;
+  height: 100vh;
+}
+.mainContainer .Hamburger,
+.mainContainer .close-icon {
+  color: #ffd700;
+  font-size: 23px;
+  display: none;
+}
+.mainContainer nav {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  height: 210px;
+  top: 50%;
+  width: inherit;
+  margin-top: -60px;
+}
+.mainContainer nav a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #4d4d4d;
+  line-height: 51px;
+  height: 51px;
+  display: block;
+  position: relative;
+}
+.mainContainer nav a i {
+  transition: all 0.3s ease-out;
+}
+.mainContainer nav a:hover {
+  color: #ffd700;
+}
+.mainContainer nav a:hover svg {
+  opacity: 0;
+}
+.mainContainer nav a:hover::after {
+  opacity: 1;
+}
+.mainContainer nav a::after {
+  content: "";
+  transform: translateX(-40%);
+  text-align: center;
+  font-size: 9px;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  left: auto;
+  display: block;
+  width: inherit;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.mainContainer nav a:first-child::after {
+  content: "HOME";
+}
+.mainContainer nav a:nth-child(2)::after {
+  content: "ABOUT";
+}
+.mainContainer nav a:nth-child(3)::after {
+  content: "MY_WORK";
+}
+.mainContainer nav a:nth-child(4)::after {
+  content: "CONTACT";
+}
+.mainContainer nav a.active svg {
+  color: #ffd700;
+}
+.mainContainer nav.mobile-show {
+  display: block;
+  width: 100%;
+}
+.mainContainer ul {
+  width: inherit;
+  position: absolute;
+  text-align: center;
+}
+.mainContainer ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  padding: 7px 0;
+}
+.mainContainer ul li:hover svg {
+  color: #ffd700;
+}
+
+@media screen and (max-width: 1200px) {
+  .mainContainer {
+    z-index: 10000;
+    position: relative;
+    top: 0px;
+    height: auto;
+    min-height: auto;
+  }
+  .mainContainer ul,
+  .mainContainer nav {
+    display: none;
+  }
+  .mainContainer .mobile-show {
+    width: auto;
+    position: absolute;
+  }
+  .mainContainer nav {
+    position: absolute;
+    width: 100%;
+    background: #181818;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 10000 !important;
+    margin: 0;
+  }
+  .mainContainer nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainContainer nav a::after {
+    opacity: 1;
+    position: initial;
+    width: auto;
+    margin-left: 25px;
+  }
+  .mainContainer nav a svg {
+    opacity: 1 !important;
+  }
+  .mainContainer .Hamburger,
+  .mainContainer .close-icon {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: -280px;
+  }
+  .mainContainer .close-icon {
+    position: absolute;
+    right: 60px;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,57 @@
+.portfolio-page {
+  position: absolute;
+  top: 39px;
+  left: 230px;
+}
+.portfolio-page .text-zone {
+  position: absolute;
+  top: 20px;
+}
+.portfolio-page h1 {
+  color: #ffd700;
+  font-size: 53px;
+  font-family: "Coolvetica";
+  font-weight: 400;
+}
+.portfolio-page h1::before {
+  content: "<h1>";
+  font-family: "La Belle Aurore";
+  opacity: 0.6;
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  left: -33px;
+  top: -5px;
+  animation: fadeIn 1s 1.7s backwards;
+}
+.portfolio-page h1::after {
+  content: "</h1>";
+  font-family: "La Belle Aurore";
+  opacity: 0.6;
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  left: -33px;
+  top: 63px;
+  animation: fadeIn 1s 1.7s backwards;
+}
+.portfolio-page h1 .text-animate-hover:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolio-page {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    left: 0px;
+    top: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-zone {
+    left: 52px;
+    margin-bottom: 150px;
+  }
+}/*# sourceMappingURL=Portfolio.css.map */

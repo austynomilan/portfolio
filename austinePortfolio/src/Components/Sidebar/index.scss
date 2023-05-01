@@ -87,6 +87,7 @@ $primary-color: #ffd700 !default;
     }
     &.mobile-show {
       display: block;
+      width: 100%;
     }
   }
   ul {
@@ -161,11 +162,11 @@ $primary-color: #ffd700 !default;
       display: block;
       position: absolute;
       top: 25px;
-      right: -320px;
+      right: -280px;
     }
     .close-icon {
       position: absolute;
-      right: 40px;
+      right: 60px;
     }
   }
 }

@@ -1,0 +1,161 @@
+.home-page {
+  position: absolute;
+  z-index: 900;
+}
+.home-page .text-zone {
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  max-height: 90%;
+}
+.home-page .immediate::before {
+  content: "<h1>";
+  font-family: "La Belle Aurore";
+  opacity: 0.6;
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  top: -56px;
+  left: -35px;
+  animation: fadeIn 1s 1.7s backwards;
+}
+.home-page .immediate_2::after {
+  content: "</h1>";
+  font-family: "La Belle Aurore";
+  opacity: 0.6;
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  right: 150px;
+  top: 150px;
+  animation: fadeIn 1s 1.7s backwards;
+}
+.home-page h1 {
+  color: #fff;
+  font-size: 53px;
+  font-family: "Coolvetica";
+  font-weight: 400;
+}
+.home-page span {
+  display: flex;
+  align-items: center;
+}
+.home-page span img {
+  width: 100px;
+  margin-right: -22px;
+  opacity: 0;
+  height: auto;
+  animation: rotateIn 1s linear both;
+  animation-delay: 1.6s;
+}
+.home-page h2 {
+  color: #8d8d8d;
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 11px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8s backwards;
+}
+
+.glow-on-hover {
+  border: 1px solid #ffd700;
+  font-size: 13px;
+  color: #ffd700;
+  border-radius: 10px;
+}
+
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #000;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 4px;
+}
+
+.glow-on-hover:before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: transparent;
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffd700;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .tags,
+  .home-page h1::before,
+  .home-page h1::after {
+    display: none;
+  }
+  .home-page {
+    left: 0px;
+  }
+  .home-page .text-zone {
+    position: relative;
+    left: -5px;
+    top: 105px;
+    width: 100%;
+    transform: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  .home-page .glow-on-hover {
+    float: none;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 160px;
+    height: 30px;
+    font-weight: 700;
+  }
+}/*# sourceMappingURL=index.css.map */

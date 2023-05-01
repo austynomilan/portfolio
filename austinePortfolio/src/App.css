@@ -1,0 +1,38 @@
+@import url("./Components/leaflet/leaflet.css");
+@import 'animate.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./assets/fonts/helvetical-neu.ttf") format("ttf");
+}
+@font-face {
+  font-family: "La Belle Aurore";
+  src: url("./assets/fonts/LaBelleAurore.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url("./assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
+}
+input,
+textarea {
+  font-family: "Helvetica Neue";
+}
+
+.loaderContainer {
+  z-index: 99999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    overflow-x: hidden !important;
+    width: 100%;
+  }
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,109 @@
+.images-container {
+  width: 80%;
+  position: relative;
+  top: 120px;
+  left: 5px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.images-container .image-box {
+  position: relative;
+  flex: 1 1 20%;
+  overflow: hidden;
+  max-width: calc(25% - 10px);
+  height: 250px;
+}
+.images-container .image-box:after {
+  content: "";
+  background: linear-gradient(180deg, #ffd700, #000);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+}
+.images-container .image-box:hover::after {
+  opacity: 0.74;
+}
+.images-container .image-box .portfolio-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  animation: fadeIn 1s 3.2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.images-container .image-box .portfolio-content {
+  animation: fadeIn 1s 3.2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  padding: 10px 20px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0, rgb(0, 0, 0));
+  bottom: -78px;
+}
+.images-container .image-box .portfolio-content:hover {
+  bottom: 0;
+  cursor: pointer;
+  background: transparent;
+}
+.images-container .image-box .title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.images-container .image-box .description {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: 700;
+}
+.images-container .image-box .btn {
+  margin-top: 30px;
+  border: 1px solid #ffd700;
+  color: #ffd700;
+  font-size: 12px;
+  padding: 0 14px;
+  border-radius: 4px;
+  background: transparent;
+  font-weight: 700;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.images-container .image-box .btn:hover {
+  transform: translateY(-3px);
+  color: #fff;
+  background-color: #ffd700;
+}
+
+@media screen and (max-width: 1200px) {
+  .images-container {
+    box-sizing: border-box;
+    width: 100%;
+    gap: 5px;
+  }
+  .images-container .image-box {
+    top: 145px;
+    height: 200px;
+    flex: 1 1 50%;
+    max-width: calc(50% - 10px);
+  }
+  .images-container .portfolio-content .title {
+    font-size: 18px;
+  }
+  .images-container .portfolio-content .description {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=Portfolio-content.css.map */
