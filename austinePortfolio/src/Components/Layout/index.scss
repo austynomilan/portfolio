@@ -123,11 +123,9 @@ $primary-color: #ffd700 !default;
 @media screen and (max-width: 1200px){
   .page{
     position: initial;
-    width: 100%;
   }
 .about-page
   .container{
-    top: 25%;
     position: relative;
     left: 0;
     height: auto;
