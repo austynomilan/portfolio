@@ -39,7 +39,9 @@ const Portfolio = () =>{
                 />
             </h1>
         </div>
-         <Portfolio_content />
+        <div className='project-wrapper'>
+        <Portfolio_content />
+        </div>
           </div>
        
         <div className="loaderContainer">

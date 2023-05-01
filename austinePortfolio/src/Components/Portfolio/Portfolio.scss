@@ -56,6 +56,11 @@ $primary-color: #ffd700 !default;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .project-wrapper{
+      width: 100vw;
+      padding-top: 100px;
+    }
   }
 .text-zone{
   left: 52px;

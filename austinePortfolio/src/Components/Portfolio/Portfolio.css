@@ -50,6 +50,10 @@
     align-items: center;
     justify-content: center;
   }
+  .portfolio-page .project-wrapper {
+    width: 100vw;
+    padding-top: 100px;
+  }
   .text-zone {
     left: 52px;
     margin-bottom: 150px;

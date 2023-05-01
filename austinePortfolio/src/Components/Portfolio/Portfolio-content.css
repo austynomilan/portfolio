@@ -95,7 +95,6 @@
     gap: 5px;
   }
   .images-container .image-box {
-    top: 145px;
     height: 200px;
     flex: 1 1 50%;
     max-width: calc(50% - 10px);
