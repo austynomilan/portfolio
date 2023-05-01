@@ -40,5 +40,10 @@ textarea {
 @media screen and (max-width: 1200px){
   .wrapper{
     overflow-x: hidden !important;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 }

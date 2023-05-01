@@ -108,7 +108,9 @@ $primary-color: #ffd700 !default;
 
 @media screen and (max-width: 1200px) {
   .images-container{
-    top: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    top: 40px;
     gap: 15px;
     .image-box{
       height: 200px;
