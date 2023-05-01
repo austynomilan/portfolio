@@ -106,6 +106,7 @@
   .mainContainer .mobile-show {
     width: 100vw !important;
     position: absolute;
+    z-index: 100000 !important;
   }
   .mainContainer nav {
     position: absolute;
