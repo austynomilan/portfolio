@@ -1,7 +1,7 @@
 {
     "portfolio":[
         {
-            "cover": "/Portfolio/one/pdCard.PNG",
+            "cover": "/Portfolio/one/pdcard.PNG",
             "title": "Product Card",
             "description": "Html, Css, Javascript",
             "url": "https://product-card-eosin-gamma.vercel.app/",
