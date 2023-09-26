@@ -1,38 +1,38 @@
 {
     "portfolio":[
         {
-            "cover": "/Portfolio/one/one.png",
-            "title": "The App",
-            "description": "React, Html, Css",
-            "url": "https://www.google.com/",
+            "cover": "./src/assets/images/pdCard.PNG",
+            "title": "Product Card",
+            "description": "Html, Css, Javascript",
+            "url": "https://product-card-eosin-gamma.vercel.app/",
             "index": 1
 
         },
         {
-            "cover": "/Portfolio/one/one.png",
-            "title": "The App",
-            "description": "React, Html, Css",
-            "url": "https://www.google.com/",
+            "cover": "./src/assets/images/shell.jpg",
+            "title": "Linux Shell",
+            "description": "C",
+            "url": "https://github.com/austynomilan/simple_shell.git",
             "index": 2
         },
         {
-            "cover": "/Portfolio/one/one.png",
-            "title": "The App",
-            "description": "React, Html, Css",
-            "url": "https://www.google.com/",
+            "cover": "./src/assets/images/mvCard.PNG",
+            "title": "The Movie App",
+            "description": "React+Vite, Scss",
+            "url": "https://movie-app-rust-pi.vercel.app/",
             "index": 3
         },
         {
-            "cover": "/Portfolio/one/one.png",
-            "title": "The App",
-            "description": "React, Html, Css",
+            "cover": "./src/assets/images/port.PNG",
+            "title": "Personal Portfolio",
+            "description": "React+Vite, Scss",
             "url": "https://www.google.com/",
             "index": 4
         },
         {
-            "cover": "/Portfolio/one/one.png",
-            "title": "The App",
-            "description": "React, Html, Css",
+            "cover": "./src/assets/images/gallery.PNG",
+            "title": "Drag and drop APP",
+            "description": "React+Vite, Scss",
             "url": "https://www.google.com/",
             "index": 5
         } 
