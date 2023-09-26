@@ -29,6 +29,7 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faUser} />
         </NavLink>
+        
         <NavLink
           activeclassname="active"
           className="Portfolio-link"
