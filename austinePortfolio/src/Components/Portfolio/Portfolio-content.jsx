@@ -15,9 +15,14 @@ const Portfolio_content = () => {
             <div className="portfolio-content">
               <h3 className='title'>{item.title}</h3>
               <h4 className='description'>{item.description}</h4>
-              <button className='btn' onClick={() => window.open(item.url)}>
+              <div>
+                <button className='btn' onClick={() => window.open(item.url)}>
                 View
               </button>
+              <button className='btn' onClick={() => window.open(item.git)}>
+                Git
+              </button>
+              </div>
             </div>
           </div>
         )

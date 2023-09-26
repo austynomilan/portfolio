@@ -5,7 +5,8 @@
             "title": "Product Card",
             "description": "Html, Css, Javascript",
             "url": "https://product-card-eosin-gamma.vercel.app/",
-            "index": 1
+            "index": 1,
+            "git": "https://github.com/austynomilan/productCard.git"
 
         },
         {
@@ -13,28 +14,32 @@
             "title": "Linux Shell",
             "description": "C",
             "url": "https://github.com/austynomilan/simple_shell.git",
-            "index": 2
+            "index": 2,
+            "git": "https://github.com/austynomilan/simple_shell.git"
         },
         {
             "cover": "/Portfolio/one/mvCard.PNG",
             "title": "The Movie App",
             "description": "React+Vite, Scss",
             "url": "https://movie-app-rust-pi.vercel.app/",
-            "index": 3
+            "index": 3,
+            "git": "https://github.com/austynomilan/movieApp.git"
         },
         {
             "cover": "/Portfolio/one/port.PNG",
             "title": "Personal Portfolio",
             "description": "React+Vite, Scss",
             "url": "https://portfolio-git-main-austynomilan.vercel.app/",
-            "index": 4
+            "index": 4,
+            "git":"https://github.com/austynomilan/portfolio.git"
         },
         {
             "cover": "/Portfolio/one/gallery.PNG",
             "title": "Drag and drop APP",
             "description": "React+Vite, Scss",
             "url": "https://www.google.com/",
-            "index": 5
+            "index": 5,
+            "git":"https://github.com/austynomilan/galleryAPP.git"
         } 
 
     ]
