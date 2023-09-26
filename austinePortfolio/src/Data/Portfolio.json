@@ -16,7 +16,7 @@
             "index": 2
         },
         {
-            "cover": "./src/assets/images/mvCard.PNG",
+            "cover": "/Portfolio/one/mvCard.PNG",
             "title": "The Movie App",
             "description": "React+Vite, Scss",
             "url": "https://movie-app-rust-pi.vercel.app/",
@@ -26,7 +26,7 @@
             "cover": "./src/assets/images/port.PNG",
             "title": "Personal Portfolio",
             "description": "React+Vite, Scss",
-            "url": "https://www.google.com/",
+            "url": "https://portfolio-git-main-austynomilan.vercel.app/",
             "index": 4
         },
         {
