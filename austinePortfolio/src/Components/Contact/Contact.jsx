@@ -4,7 +4,6 @@ import AtomLoader from 'react-loaders-kit/lib/atom/AtomLoader'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
 
-
 const About = () => {
   const form = useRef()
 
@@ -51,7 +50,6 @@ const About = () => {
       )
   }
 
-
   return (
     <>
       <div className="container contact-page">
@@ -64,10 +62,8 @@ const About = () => {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fuga,
-            exercitationem enim, consequatur sed facere eveniet modi minus
-            laudantium natus perferendis, et quia? Harum, iure. Libero
-            temporibus pariatur saepe. Mollitia.
+            If you have any questions or would like to discuss your project
+            further, please don't hesitate to reach out to me, use the contact form below.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -116,9 +112,7 @@ const About = () => {
           <br />
           <span>austynomilano77@gmail.com</span>
         </div>
-        <div className="map-wrap">
-          
-        </div>
+        <div className="map-wrap"></div>
       </div>
       <div className="loaderContainer">
         <AtomLoader {...loaderProps} />
