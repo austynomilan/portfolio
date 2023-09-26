@@ -29,6 +29,7 @@
     "react-motion-animate": "^1.0.6",
     "react-router-dom": "^6.10.0",
     "sass": "^1.60.0",
+    "vercel": "^32.3.1",
     "web-vitals-reporter": "^1.0.0"
   },
   "devDependencies": {
