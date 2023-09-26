@@ -1,7 +1,7 @@
 {
     "portfolio":[
         {
-            "cover": "./src/assets/images/pdCard.PNG",
+            "cover": "/Portfolio/one/pdCard.PNG",
             "title": "Product Card",
             "description": "Html, Css, Javascript",
             "url": "https://product-card-eosin-gamma.vercel.app/",
@@ -9,7 +9,7 @@
 
         },
         {
-            "cover": "./src/assets/images/shell.jpg",
+            "cover": "/Portfolio/one/shell.jpg",
             "title": "Linux Shell",
             "description": "C",
             "url": "https://github.com/austynomilan/simple_shell.git",
@@ -23,14 +23,14 @@
             "index": 3
         },
         {
-            "cover": "./src/assets/images/port.PNG",
+            "cover": "/Portfolio/one/port.PNG",
             "title": "Personal Portfolio",
             "description": "React+Vite, Scss",
             "url": "https://portfolio-git-main-austynomilan.vercel.app/",
             "index": 4
         },
         {
-            "cover": "./src/assets/images/gallery.PNG",
+            "cover": "/Portfolio/one/gallery.PNG",
             "title": "Drag and drop APP",
             "description": "React+Vite, Scss",
             "url": "https://www.google.com/",
