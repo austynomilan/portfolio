@@ -1,11 +1,19 @@
 {
     "portfolio":[
         {
+            "cover": "/Portfolio/one/dropbox.PNG",
+            "title": "Dropbox clone",
+            "description": "NextJs14, Tailwind",
+            "url": "https://dropbox2-0.vercel.app/",
+            "index": 1,
+            "git": "https://github.com/austynomilan/Dropbox2.0/tree/master/dropbox-clone"
+        },
+        {
             "cover": "/Portfolio/one/game.PNG",
             "title": "Tic-Tac-Toe Game",
             "description": "React+Vite, Css",
             "url": "https://tic-tac-toe-ten-kohl.vercel.app/",
-            "index": 1,
+            "index": 2,
             "git": "https://github.com/austynomilan/tic-tac-toe"
         },
         {
@@ -13,7 +21,7 @@
             "title": "Product Card",
             "description": "Html, Css, Javascript",
             "url": "https://product-card-eosin-gamma.vercel.app/",
-            "index": 2,
+            "index": 3,
             "git": "https://github.com/austynomilan/productCard.git"
 
         },
@@ -22,7 +30,7 @@
             "title": "Investment Calculator",
             "description": "React, Css",
             "url": "https://659c04a7b2a334035e700013--precious-gumption-2528a9.netlify.app/",
-            "index": 3,
+            "index": 4,
             "git": "https://github.com/austynomilan/financialCalc"
         },
         {
@@ -30,7 +38,7 @@
             "title": "Linux Shell",
             "description": "C",
             "url": "https://github.com/austynomilan/simple_shell.git",
-            "index": 4,
+            "index": 5,
             "git": "https://github.com/austynomilan/simple_shell.git"
         },
         {
@@ -38,7 +46,7 @@
             "title": "The Movie App",
             "description": "React+Vite, Scss",
             "url": "https://movie-app-rust-pi.vercel.app/",
-            "index": 5,
+            "index": 6,
             "git": "https://github.com/austynomilan/movieApp.git"
         },
         {
@@ -46,7 +54,7 @@
             "title": "Personal Portfolio",
             "description": "React+Vite, Scss",
             "url": "https://portfolio-git-main-austynomilan.vercel.app/",
-            "index": 6,
+            "index": 7,
             "git":"https://github.com/austynomilan/portfolio.git"
         },
         {
@@ -54,7 +62,7 @@
             "title": "Drag and drop APP",
             "description": "React+Vite, Scss",
             "url": "https://www.google.com/",
-            "index": 7,
+            "index": 8,
             "git":"https://github.com/austynomilan/galleryAPP.git"
         } 
 
