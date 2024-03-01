@@ -42,19 +42,11 @@
             "git": "https://github.com/austynomilan/simple_shell.git"
         },
         {
-            "cover": "/Portfolio/one/mvCard.PNG",
-            "title": "The Movie App",
-            "description": "React+Vite, Scss",
-            "url": "https://movie-app-rust-pi.vercel.app/",
-            "index": 6,
-            "git": "https://github.com/austynomilan/movieApp.git"
-        },
-        {
             "cover": "/Portfolio/one/port.PNG",
             "title": "Personal Portfolio",
             "description": "React+Vite, Scss",
             "url": "https://portfolio-git-main-austynomilan.vercel.app/",
-            "index": 7,
+            "index": 6,
             "git":"https://github.com/austynomilan/portfolio.git"
         },
         {
@@ -62,9 +54,10 @@
             "title": "Drag and drop APP",
             "description": "React+Vite, Scss",
             "url": "https://gallery-app-plum.vercel.app/",
-            "index": 8,
+            "index": 7,
             "git":"https://github.com/austynomilan/galleryAPP.git"
         } 
 
     ]
 }
+
