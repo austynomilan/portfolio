@@ -61,7 +61,7 @@
             "cover": "/Portfolio/one/gallery.PNG",
             "title": "Drag and drop APP",
             "description": "React+Vite, Scss",
-            "url": "https://www.google.com/",
+            "url": "https://gallery-app-plum.vercel.app/",
             "index": 8,
             "git":"https://github.com/austynomilan/galleryAPP.git"
         } 
